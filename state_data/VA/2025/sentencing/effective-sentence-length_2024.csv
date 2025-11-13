@@ -1,0 +1,19 @@
+Effective Sentence Length by Primary Offense Type,,,
+Offense Type,Count of Offense Type,Mean Effective Sentence,Median Effective Sentence
+MiscOth,"2,014",7.335,6
+Fraud,"5,057",7.845,5
+Larceny,"12,044",7.931,3
+DrugOth,"2,188",8.097,1.5
+DrugI/II,"49,037",8.697,1
+MiscPP,"2,661",9.336,3
+Traffic,"6,823",10.43,9
+Weapon,"5,283",14.628,9
+BurgOth,"1,440",17.43,12
+Assault,"7,449",27.768,12
+BurgDwel,"1,819",28.682,16
+Kidnap,684,45.352,24
+SexAssau,"1,470",49.73,30
+Obscene,"1,273",66.071,36
+Robbery,"1,514",67.242,48
+Murder,"1,348",225.852,168
+Rape,763,250.79,168
