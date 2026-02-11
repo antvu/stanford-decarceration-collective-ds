@@ -41,7 +41,7 @@ from recidiviz.calculator.modeling.population_projection.utils.spark_bq_utils im
 
 mandatory_minimums = {
     "NAR3085": 5,
-    "NAR3119": 20,
+    "NAR3119": 5,
     "NAR3124": 40,
     "NAR3114": 20,
     "NAR3067": 3,
@@ -54,8 +54,8 @@ mandatory_minimums = {
     "NAR3097": 5,
     "NAR3090": 20,
     "NAR3092": 40,
-    "NAR3118": 20,
-    "NAR3123": 40,
+    #"NAR3118": 20, could not find 
+    #"NAR3123": 40,  could not find 
     "NAR3117": 20,
     "NAR3122": 40,
     "NAR3116": 20,
@@ -66,12 +66,12 @@ mandatory_minimums = {
     "NAR3093": 40,
     "NAR3038": 3,
     "NAR3087": 10,
-    "NAR3146": 5,
-    "NAR3113": 20,
-    "NAR3145": 5,
+    #"NAR3146": 5,   could not find 
+    #"NAR3113": 20,  could not find 
+   "NAR3145": 5,
     "NAR3112": 20,
     "NAR3144": 5,
-    "NAR3111": 40,
+    "NAR3111": 20,
     "NAR3147": 5,
     "NAR3149": 3,
     "NAR3115": 20,
@@ -82,11 +82,12 @@ mandatory_minimums = {
     "NAR3066": 3,
     "NAR3089": 10,
     "NAR3099": 1,
-    "NAR3041": 1,
+    "NAR3041": 0.5,
     "NAR3094": 20,
     "WPN5296": 5,
     "WPN5297": 2,
 }
+
 
 # you may have to change this path to point to wherever you have the file on your computer
 historical_sentences = pd.read_csv(
